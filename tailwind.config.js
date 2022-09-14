@@ -7,8 +7,21 @@ module.exports = {
         primary: "#55C6F5",
         secondary: "#5B5E76",
         gray: "#5B5E76",
+        grey:"#707070",
         border: "#A2B1CB",
         footer: "#D4E0F6",
+        singlename:"#989AB1"
+      },
+      height:{
+        icon:"57px",
+        licon:"98px"
+      },
+      width:{
+        icon:"57px",
+        licon:"98px"
+      },
+      fontSize:{
+        icon:"25px"
       },
       backgroundColor: {
         primary: "#ECF3FD",

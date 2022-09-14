@@ -15,7 +15,7 @@ const Navbar = () => {
         </div>
       <div className="flex justify-center items-center between  form-input  " >
         <input
-          className="rounded-[30px] bg-transparent mx-10  xl:w-screen p-4 outline-none  placeholder:text-xl "
+          className="rounded-[30px] bg-transparent mx-10 w-screen p-4 outline-none  placeholder:text-xl "
           type="text"
           placeholder="Search ..."
           style={{boxShadow:" rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset"}}
