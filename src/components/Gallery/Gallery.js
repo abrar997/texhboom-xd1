@@ -9,17 +9,17 @@ const Gallery = () => {
       <div className="flex justify-start border-b-2  text-[20px]  text-border font-semibold border-border ">
         <button
           onClick={() => setactiveNav("music")}
-          className={activeNav === "music" ? "text-gray ml-5" : " ml:0 xl:ml-5"}
+          className={activeNav === "music" ? "text-gray xl:ml-5" : " xl:ml-5"}
         >
           Music
         </button>
         <button
           onClick={() => setactiveNav("videos")}
-          className={activeNav === "videos" ? "text-gray ml-5" : " ml-5"}
+          className={activeNav === "videos" ? "text-gray ml-3 xl:ml-5" : "ml-3 xl:ml-5"}
         >Videos</button>
         <button 
           onClick={() => setactiveNav("play")}
-          className={activeNav === "play" ? "text-gray ml-5" : " ml-5"}
+          className={activeNav === "play" ? "text-gray ml-3 xl:ml-5" : " ml-3 xl:ml-5"}
         >Playlists</button>
       </div>
       <p className="xl:ml-4 text-[20px] leading-20 text-secondary font-semibold ">
