@@ -3,7 +3,7 @@ import { data } from "../../constants";
 
 const SingList = () => {
   return (
-    <div>
+    <div className="h-[46vh]">
       {data.playlist.map((items) => {
         return (
           <div className="grid grid-cols-5  xl:p-1 " key={items.id}>
